@@ -1,0 +1,13 @@
+# Ignore the whole folder 
+target
+
+# Ignore IntelliJ specific folder
+.idea
+
+# Ignore Maven folder and files
+.mvn
+mvnw*
+mvnw*.*
+
+# Ignore iml file
+*.iml
