@@ -167,11 +167,11 @@ Response body example.
 
 `GET /users/activate?token=<token>` - registration verification (`token` query parameter is required)
 
-| HTTP stats code | Explanation                                               |
-|:---------------:|:----------------------------------------------------------|
-|       200       | Successful activation                                     |
-|       400       | Token expired, token already confirmed, newer token found |
-|       404       | User with passed token not found                          |
+| HTTP stats code | Explanation                                                     |
+|:---------------:|:----------------------------------------------------------------|
+|       200       | Successful activation                                           |
+|       400       | Token expired, token already confirmed, more recent token found |
+|       404       | User with passed token not found                                |
 
 Response body example.
 ```json
