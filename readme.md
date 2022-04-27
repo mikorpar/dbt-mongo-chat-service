@@ -301,12 +301,12 @@ If request is **successful**, response contains `access-token` and `refresh-toke
 | Endpoints                 | 
 |:--------------------------|
 | `POST /login`             |
-| `GET /users/reg-ver`      |
+| `GET /users/activate`     |
 | `GET /users/passwd-reset` |
 
 # WebSocket messages and examples
 
-This section contains WS messages for groups and users collection in database. Every collection in DB has its own path(s). 
+This section contains WS messages for groups and users collections in database. Every collection in DB has its own path(s). 
 
 ## Users
 
